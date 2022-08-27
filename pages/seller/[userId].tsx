@@ -11,7 +11,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 const Seller: FC<PageProps> = ({ data }) => {
   const { userId } = data;
 
-  // 今回はAPI Routesの説明なので、マークアップはしません
+  // 今回の主題はAPI Routesの説明なので、最低限のマークアップのみです
   return (
     <>
       <h1>出品者（id: {userId}）の商品一覧ページです</h1>
